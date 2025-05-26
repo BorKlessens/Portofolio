@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Development - Bor Klessens Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/interactions.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        .content-image-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .content-image-container video {
+            width: 45%;
+            max-width: 400px;
+            height: auto;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+        audio {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">B.Klessens</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="leeruitkomsten.html">Leeruitkomsten</a></li>
+                <li><a href="opdrachten.html">Opdrachten</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="outcome-detail-container">
+        <section class="outcome-header">
+            <div class="header-content">
+                <h1>Media Development - EnoRm & Fightclub</h1>
+                <div class="outcome-intro">
+                    <p>De opdracht: (Media Development)</p>
+                    <p>Ontwikkel een interactieve easter egg die de overgang van EnoRm naar Fightclub markeert en op speelse wijze de identiteit van beide bedrijven samenbrengt. Denk aan verborgen animaties, geheime interacties of verrassende visuele transformaties die de bezoeker ontdekken.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="outcome-content">
+            <div class="content-text">
+                <h2>Proces</h2>
+                <p>Voor de start van dit project kregen we eerst een presentatie over de geschiedenis van Fightclub en EnoRm. Hierin werd uitgelegd waar deze twee bedrijven voor stonden om de opdracht voor ons duidelijker te maken. Nadat de opdracht duidelijk was, konden we aan de slag.</p>
+
+                <h3>JavaScript Leren</h3>
+                <div class="content-image-container">
+                    <video controls>
+                        <source src="/assets/images/Stop Watch.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <audio controls>
+                        <source src="/assets/audio/color-change.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <video controls>
+                        <source src="/assets/images/oefening hover + prompt.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p>Omdat ik nog geen ervaring had met JavaScript, ben ik eerst veel onderzoek gaan doen. Ik heb hiervoor verschillende filmpjes bekeken over de basics van JavaScript. Ook heb ik verschillende kleine projectjes gemaakt die eigenlijk niks met de opdracht te maken hadden. @oefen project Stop Watch @oefen project - color change Daarnaast heb ik om te oefenen de opdracht van David gemaakt: @Oefen Opdracht David Met deze kleine projectjes heb ik de basis van JavaScript geleerd. Dit was ook mijn belangrijkste doel voor deze opdracht.</p>
+
+                <h3>Easter Eggs Ontwikkeling</h3>
+                <p>Toen ik wat meer over JavaScript had geleerd, begon ik met het bedenken van ideeën voor de easter eggs. Deze ideeën heb ik samen met Thijn op papier uitgewerkt om ze beter te visualiseren. We hebben kleine tekeningen met beschrijvingen gemaakt om het idee duidelijker te maken. Ook hebben we alle benodigde items erbij gezet en meteen gemaakt. @Uitgewerkte ideeën easter eggs</p>
+
+                <h3>Website en Logo Animatie</h3>
+                <p>De eerste easter egg die ik heb gemaakt, was bij het logo. Het idee was dat wanneer je op het logo klikt, het langzaam zou vervagen en overgaat in het logo van EnoRm. Eerst wilde ik dit doen met een @gif logo glitch , maar ik kwam er al snel achter dat VS Code en gifjes niet goed samenwerkten. Daarom heb ik de animatie verder uitgewerkt met CSS en JavaScript. @logo flikker</p>
+
+                <h3>Interview Quality Lodgings</h3>
+                <audio controls>
+                    <source src="/assets/audio/interview-quality-lodgings.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <h3>Code Organisatie</h3>
+                <video controls>
+                    <source src="/assets/images/code-netjes-geordend.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <h3>Volledige Website</h3>
+                <video controls>
+                    <source src="/assets/images/Development website definitief.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <p>Gedurende het project hield ik me ook bezig met het beheren van de website. Ik heb eerst zelf een website gebouwd met HTML en CSS en er vervolgens verschillende JavaScript-elementen aan toegevoegd om alle easter eggs samen te voegen. Dit duurde langer dan verwacht, omdat ik veel tijd kwijt was aan het opschonen van de code en het oplossen van fouten die ontstonden toen alles werd samengevoegd. De easter eggs werkten afzonderlijk prima, maar eenmaal samengevoegd gingen ze met elkaar botsen. Daarom besloot ik alles over te zetten naar een nieuwe opzet met een screenshot van de Fightclub-website als achtergrond. Uiteindelijk heb ik alle fouten kunnen oplossen en de code netjes geordend, zodat alles overzichtelijk en makkelijk terug te vinden was. @code netjes geordend</p>
+
+                <h3>GitHub en Vercel</h3>
+                <p>Ik heb samen met Thijn de code gedeeld in een respository in github. Hiermee konden we de aanpassingen telkens met elkaar delen zodat we niet twee aparte projecten gingen creëren. Ook staat ons proces op deze manier goed gedocumenteerd en kunnen de docenten gemakkelijk de code bekijken om het leerdoel Development te beoordelen. Daarnaast hebben we de website gehost op een vercel zodat hij door iedereen bekeken kan worden. https://github.com/Thijn-Opperman/Semester-2---Fightclub---Easter-egg. 
+https://semester-2-fightclub-easter-egg-rk8c.vercel.app/</p>
+
+                <h2>Reflectie</h2>
+                <p>Door deze opdracht heb ik veel geleerd over JavaScript. Aan het begin wist ik er nog niets van, dus het was even wennen. Maar zodra ik de basis doorhad, begon het leuker te worden en kreeg ik steeds beter resultaat. Al met al was het een leerzame en leuke opdracht die goed aansluit bij mijn interesse in Front End Development.</p>
+            </div>
+        </section>
+
+        <nav class="outcome-navigation">
+            <a href="opdrachten.html" class="nav-button">← Terug naar Opdrachten</a>
+            <a href="opdracht-fix-the-ux.html" class="nav-button">Volgende Project →</a>
+        </nav>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Bor Klessens - ICT & Media Design Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/interactions.js"></script>
+</body>
+</html> 

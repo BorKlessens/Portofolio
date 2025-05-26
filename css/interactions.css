@@ -1,0 +1,91 @@
+/* Cursor glow effect */
+.cursor-glow {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(97, 218, 251, 0.15), transparent 70%);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: width 0.3s, height 0.3s;
+}
+
+/* Enhanced hover effects */
+.nav-links a:hover,
+.outcome-link:hover,
+.cta-button:hover,
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.outcome-card:hover {
+    transform: translateY(-10px);
+}
+
+.content-block:hover {
+    transform: translateY(-5px);
+}
+
+/* Interactive elements */
+.nav-links a,
+.outcome-link,
+.cta-button,
+.nav-button {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Enhanced card interactions */
+.outcome-card,
+.content-block {
+    transition: transform 0.3s ease;
+}
+
+/* Interactive image hover effects */
+.content-image,
+.image-grid img {
+    transition: transform 0.3s ease;
+}
+
+.content-image:hover,
+.image-grid img:hover {
+    transform: scale(1.02);
+}
+
+/* Pulse animation for logo */
+.logo {
+    position: relative;
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--accent-color);
+    border-radius: inherit;
+    z-index: -1;
+    opacity: 0;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    70% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.outcome-card:hover .outcome-content h2,
+.content-block:hover h2 {
+    text-shadow: 0 0 15px var(--accent-color);
+} 
